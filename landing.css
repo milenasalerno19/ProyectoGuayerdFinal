@@ -1,0 +1,96 @@
+body {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: white;
+    height: 100 vh;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-button:increment, .contenedor::-webkit-scrollbar-button {
+    display: none;
+}
+
+body::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(106, 106, 106);
+}
+
+h1 {
+    font-size: 38px;
+}
+
+.nav-link {
+    color: white;
+    transition: color 1s ease;
+}
+
+.nav-link:hover {
+    color: rgb(116, 116, 116);
+}
+
+.nav-link:active {
+    color: rgb(116, 116, 116);
+}
+
+#nav-bar-brand{
+    color: white;
+}
+
+#main-navbar {
+    margin-bottom: 5rem;
+}
+
+.bg-transitions {
+    background-color: #11294d;
+    transition: background-color 1s ease;
+}
+
+.bg-transitions:hover {
+    background-color: #142e1d;    
+}
+
+.btn-dark {
+    background-color: #1c1f23;
+}
+
+.btn-dark:hover {
+    background-color: #0d0e10;
+    transition: background-color 1s ease;
+}
+
+div.col:active {
+    background-color: white;   
+}
+
+div.col:active  div.card {     
+    border: none;
+}
+
+div.col:active div.card div.card-header {
+    background-color: white;   
+    color: black;    
+}
+
+label {
+    width: 200px;
+    margin: 8px 0;
+}
+input {
+   width: 300px;
+   margin: 8px 0;
+   margin-left: 30px;   
+}
+
+.form-btn {
+    margin-left: 120px;
+}
