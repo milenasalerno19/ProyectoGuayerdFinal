@@ -3,6 +3,18 @@ body {
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
     color: white;
     height: 100 vh;
+    background-image:url(imagenes/handsworld.png) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 750px;
+    
+}
+#titulo{
+    color: hsl(0, 0%, 100%);
+    background-color:hwb(60 28% 71% / 0.395);
+}
+form{
+    background-color:hwb(60 28% 71% / 0.395);
 }
 
 body::-webkit-scrollbar {
@@ -93,4 +105,5 @@ input {
 
 .form-btn {
     margin-left: 120px;
+    
 }
